@@ -1,3 +1,7 @@
+/* design tokens from https://open-props.style/ */
+/* can be replaced for a more safe @import "open-props/style"; if the lib is installed with npm install open-props */
+@import "https://unpkg.com/open-props";
+
 *,
 *::before,
 *::after {
@@ -7,6 +11,7 @@
 html,
 body {
   min-height: 100vh;
+  font-family: var(--font-industrial);  
 }
 
 html,
